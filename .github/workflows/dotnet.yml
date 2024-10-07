@@ -5,8 +5,8 @@ on:
   pull_request:
     branches: [ Lab2 ]
     paths:
-    - '**.cs'
-    - '**.csproj'
+    - 'Lab2/**.cs'
+    - 'Lab2/**.csproj'
 
 env:
   DOTNET_VERSION: '8.0' # The .NET SDK version to use
@@ -28,13 +28,13 @@ jobs:
         dotnet-version: ${{ env.DOTNET_VERSION }}
 
     - name: Install dependencies
-      run: dotnet restore
+      run: dotnet restore Lab2/Lab2-RPBDIS.sln
 
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build Lab2/Lab2-RPBDIS.sln --configuration Release --no-restore
 
     - name: Log errors
       if: failure()
       run: |
         echo "Build failed. Checking logs..."
-        cat **/*.log
+        cat Lab2/**/*.log
