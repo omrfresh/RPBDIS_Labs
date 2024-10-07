@@ -29,7 +29,12 @@ jobs:
 
     - name: Install dependencies
       run: dotnet restore
-      
+
     - name: Build
       run: dotnet build --configuration Release --no-restore
-    
+
+    - name: Log errors
+      if: failure()
+      run: |
+        echo "Build failed. Checking logs..."
+        cat **/*.log
