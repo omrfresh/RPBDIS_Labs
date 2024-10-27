@@ -2,14 +2,15 @@ name: build
 
 on:
   push:
+    branches: [ Lab3 ]
   pull_request:
     branches: [ Lab3 ]
     paths:
-    - '**.cs'
-    - '**.csproj'
+      - '**.cs'
+      - '**.csproj'
 
 env:
-  DOTNET_VERSION: '8.0' # The .NET SDK version to use
+  DOTNET_VERSION: '8.0.x' # The .NET SDK version to use
 
 jobs:
   build:
@@ -29,7 +30,9 @@ jobs:
 
     - name: Install dependencies
       run: dotnet restore
-      
+
     - name: Build
       run: dotnet build --configuration Release --no-restore
-    
+
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
