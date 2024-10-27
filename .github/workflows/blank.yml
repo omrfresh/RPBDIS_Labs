@@ -3,7 +3,7 @@ name: build
 on:
   push:
   pull_request:
-    branches: [ Lab2 ]
+    branches: [ Lab3 ]
     paths:
     - '**.cs'
     - '**.csproj'
