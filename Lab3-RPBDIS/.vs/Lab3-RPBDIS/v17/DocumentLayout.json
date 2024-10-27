@@ -1,0 +1,495 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\models\\forms\\searchform2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:models\\forms\\searchform2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\services\\interfaces\\icachedadtypesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:services\\interfaces\\icachedadtypesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\services\\cachedadtypesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:services\\cachedadtypesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\models\\adtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:models\\adtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\infrastructure\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:infrastructure\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\data\\advertisingagencydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:data\\advertisingagencydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\services\\cachedordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:services\\cachedordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\services\\cachedlocationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:services\\cachedlocationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\services\\cachedemployeesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:services\\cachedemployeesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\services\\cachedclientsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:services\\cachedclientsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\services\\cachedadditionalservicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:services\\cachedadditionalservicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\services\\interfaces\\icachedordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:services\\interfaces\\icachedordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\services\\interfaces\\icachedorderservicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:services\\interfaces\\icachedorderservicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\services\\interfaces\\icachedlocationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:services\\interfaces\\icachedlocationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\services\\interfaces\\icachedemployeesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:services\\interfaces\\icachedemployeesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\services\\interfaces\\icachedclientsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:services\\interfaces\\icachedclientsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\services\\interfaces\\icachedadditionalservicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:services\\interfaces\\icachedadditionalservicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\models\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:models\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\services\\cachedorderservicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:services\\cachedorderservicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\lab3-rpbdis.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:lab3-rpbdis.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|c:\\users\\andrey larionov\\desktop\\lab3-rpbdis\\models\\additionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AC6914-0CDA-4252-94B5-CFF7A578C8A6}|Lab3-RPBDIS.csproj|solutionrelative:models\\additionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAAAgBAAAAAAAAAAA3wB0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T17:07:18.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Infrastructure\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Infrastructure\\SessionExtensions.cs",
+              "RelativeToolTip": "Infrastructure\\SessionExtensions.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:17:33.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchForm2.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\Forms\\SearchForm2.cs",
+              "RelativeDocumentMoniker": "Models\\Forms\\SearchForm2.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\Forms\\SearchForm2.cs",
+              "RelativeToolTip": "Models\\Forms\\SearchForm2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:16:23.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CachedOrderServicesService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\CachedOrderServicesService.cs",
+              "RelativeDocumentMoniker": "Services\\CachedOrderServicesService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\CachedOrderServicesService.cs",
+              "RelativeToolTip": "Services\\CachedOrderServicesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:11:49.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CachedOrdersService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\CachedOrdersService.cs",
+              "RelativeDocumentMoniker": "Services\\CachedOrdersService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\CachedOrdersService.cs",
+              "RelativeToolTip": "Services\\CachedOrdersService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:11:04.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CachedLocationsService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\CachedLocationsService.cs",
+              "RelativeDocumentMoniker": "Services\\CachedLocationsService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\CachedLocationsService.cs",
+              "RelativeToolTip": "Services\\CachedLocationsService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:10:22.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CachedEmployeesService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\CachedEmployeesService.cs",
+              "RelativeDocumentMoniker": "Services\\CachedEmployeesService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\CachedEmployeesService.cs",
+              "RelativeToolTip": "Services\\CachedEmployeesService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:09:30.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CachedClientsService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\CachedClientsService.cs",
+              "RelativeDocumentMoniker": "Services\\CachedClientsService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\CachedClientsService.cs",
+              "RelativeToolTip": "Services\\CachedClientsService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:08:29.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CachedAdditionalServicesService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\CachedAdditionalServicesService.cs",
+              "RelativeDocumentMoniker": "Services\\CachedAdditionalServicesService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\CachedAdditionalServicesService.cs",
+              "RelativeToolTip": "Services\\CachedAdditionalServicesService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:07:35.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CachedAdTypesService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\CachedAdTypesService.cs",
+              "RelativeDocumentMoniker": "Services\\CachedAdTypesService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\CachedAdTypesService.cs",
+              "RelativeToolTip": "Services\\CachedAdTypesService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:06:35.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICachedOrderServicesService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\Interfaces\\ICachedOrderServicesService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICachedOrderServicesService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\Interfaces\\ICachedOrderServicesService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICachedOrderServicesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:06:08.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ICachedOrdersService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\Interfaces\\ICachedOrdersService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICachedOrdersService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\Interfaces\\ICachedOrdersService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICachedOrdersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:05:23.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICachedLocationsService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\Interfaces\\ICachedLocationsService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICachedLocationsService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\Interfaces\\ICachedLocationsService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICachedLocationsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:05:03.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ICachedEmployeesService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\Interfaces\\ICachedEmployeesService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICachedEmployeesService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\Interfaces\\ICachedEmployeesService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICachedEmployeesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:04:39.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICachedClientsService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\Interfaces\\ICachedClientsService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICachedClientsService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\Interfaces\\ICachedClientsService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICachedClientsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:04:15.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICachedAdditionalServicesService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\Interfaces\\ICachedAdditionalServicesService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICachedAdditionalServicesService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\Interfaces\\ICachedAdditionalServicesService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICachedAdditionalServicesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:03:49.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Lab3-RPBDIS",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Lab3-RPBDIS.csproj",
+              "RelativeDocumentMoniker": "Lab3-RPBDIS.csproj",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Lab3-RPBDIS.csproj",
+              "RelativeToolTip": "Lab3-RPBDIS.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-27T16:03:11.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICachedAdTypesService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\Interfaces\\ICachedAdTypesService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICachedAdTypesService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Services\\Interfaces\\ICachedAdTypesService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICachedAdTypesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:01:56.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-27T15:53:51.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdvertisingAgencyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Data\\AdvertisingAgencyDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AdvertisingAgencyDbContext.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Data\\AdvertisingAgencyDbContext.cs",
+              "RelativeToolTip": "Data\\AdvertisingAgencyDbContext.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAYwI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:23:41.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\OrderService.cs",
+              "RelativeDocumentMoniker": "Models\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\OrderService.cs",
+              "RelativeToolTip": "Models\\OrderService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:23:11.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAywCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:22:39.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "Models\\Location.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\Location.cs",
+              "RelativeToolTip": "Models\\Location.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:21:53.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:21:30.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "Models\\Client.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\Client.cs",
+              "RelativeToolTip": "Models\\Client.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:21:03.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AdditionalService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\AdditionalService.cs",
+              "RelativeDocumentMoniker": "Models\\AdditionalService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\AdditionalService.cs",
+              "RelativeToolTip": "Models\\AdditionalService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:20:35.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T18:36:20.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdType.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\AdType.cs",
+              "RelativeDocumentMoniker": "Models\\AdType.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Models\\AdType.cs",
+              "RelativeToolTip": "Models\\AdType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:19:49.882Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
