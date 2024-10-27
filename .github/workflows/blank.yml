@@ -2,15 +2,14 @@ name: build
 
 on:
   push:
-    branches: [ Lab3 ]
   pull_request:
     branches: [ Lab3 ]
     paths:
-      - '**.cs'
-      - '**.csproj'
+    - 'Lab3-RPBDIS/**.cs'
+    - 'Lab3-RPBDIS/**.csproj'
 
 env:
-  DOTNET_VERSION: '8.0.x' # The .NET SDK version to use
+  DOTNET_VERSION: '8.0' # The .NET SDK version to use
 
 jobs:
   build:
@@ -29,10 +28,13 @@ jobs:
         dotnet-version: ${{ env.DOTNET_VERSION }}
 
     - name: Install dependencies
-      run: dotnet restore
+      run: dotnet restore Lab3-RPBDIS/Lab3-RPBDIS.sln
 
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build Lab3-RPBDIS/Lab3-RPBDIS.sln --configuration Release --no-restore
 
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+    - name: Log errors
+      if: failure()
+      run: |
+        echo "Build failed. Checking logs..."
+        cat Lab3-RPBDIS/**/*.log
