@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lab3-RPBDIS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ddbf45ea7ebfb44807ec5bf8416c926ffe93b43")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lab3-RPBDIS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lab3-RPBDIS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

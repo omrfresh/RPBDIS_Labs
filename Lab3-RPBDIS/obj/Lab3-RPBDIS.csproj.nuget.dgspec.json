@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Lab3-RPBDIS.csproj": {}
+    "C:\\Users\\Andrey Larionov\\Desktop\\RPBDISGit\\RPBDIS_Labs\\Lab3-RPBDIS\\Lab3-RPBDIS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Lab3-RPBDIS.csproj": {
+    "C:\\Users\\Andrey Larionov\\Desktop\\RPBDISGit\\RPBDIS_Labs\\Lab3-RPBDIS\\Lab3-RPBDIS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Lab3-RPBDIS.csproj",
+        "projectUniqueName": "C:\\Users\\Andrey Larionov\\Desktop\\RPBDISGit\\RPBDIS_Labs\\Lab3-RPBDIS\\Lab3-RPBDIS.csproj",
         "projectName": "Lab3-RPBDIS",
-        "projectPath": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\Lab3-RPBDIS.csproj",
+        "projectPath": "C:\\Users\\Andrey Larionov\\Desktop\\RPBDISGit\\RPBDIS_Labs\\Lab3-RPBDIS\\Lab3-RPBDIS.csproj",
         "packagesPath": "C:\\Users\\Andrey Larionov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrey Larionov\\Desktop\\Lab3-RPBDIS\\obj\\",
+        "outputPath": "C:\\Users\\Andrey Larionov\\Desktop\\RPBDISGit\\RPBDIS_Labs\\Lab3-RPBDIS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andrey Larionov\\AppData\\Roaming\\NuGet\\NuGet.Config",
