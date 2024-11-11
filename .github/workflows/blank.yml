@@ -3,10 +3,10 @@ name: build
 on:
   push:
   pull_request:
-    branches: [ Lab3 ]
+    branches: [ Lab4 ]
     paths:
-    - '**.cs'
-    - '**.csproj'
+    - 'Lab4/**.cs'
+    - 'Lab4/**.csproj'
 
 env:
   DOTNET_VERSION: '8.0' # The .NET SDK version to use
@@ -28,8 +28,13 @@ jobs:
         dotnet-version: ${{ env.DOTNET_VERSION }}
 
     - name: Install dependencies
-      run: dotnet restore
-      
+      run: dotnet restore Lab4/Lab4.sln
+
     - name: Build
-      run: dotnet build --configuration Release --no-restore
-    
+      run: dotnet build Lab4/Lab4.sln --configuration Release --no-restore
+
+    - name: Log errors
+      if: failure()
+      run: |
+        echo "Build failed. Checking logs..."
+        cat Lab4/**/*.log
