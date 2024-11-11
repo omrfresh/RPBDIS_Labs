@@ -1,0 +1,54 @@
+﻿@model Lab4.ViewModels.AdditionalServicesViewModel
+
+@{
+    ViewData["Title"] = "Additional Services";
+}
+
+<h2>Additional Services</h2>
+
+@using (Html.BeginForm("Index", "AdditionalServices", FormMethod.Post))
+{
+    <fieldset>
+        <legend>Search</legend>
+        Наименование услуги: @Html.TextBox("Name", Model.AdditionalServiceViewModel.Name)
+        Описание: @Html.TextBox("Description", Model.AdditionalServiceViewModel.Description)
+        <input type="submit" value="Найти" />
+    </fieldset>
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.ActionLink("Name", "Index", new { sortOrder = Model.AdditionalServiceViewModel.SortViewModel.NameSort })
+            </th>
+            <th>
+                @Html.ActionLink("Description", "Index", new { sortOrder = Model.AdditionalServiceViewModel.SortViewModel.DescriptionSort })
+            </th>
+            <th>
+                @Html.ActionLink("Cost", "Index", new { sortOrder = Model.AdditionalServiceViewModel.SortViewModel.CostSort })
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.AdditionalServices)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td>@item.Cost</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<nav>
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.PageViewModel.TotalPages; i++)
+        {
+            <li class="page-item @(i == Model.PageViewModel.PageNumber ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = i, sortOrder = Model.AdditionalServiceViewModel.SortViewModel.CurrentState, searchName = Model.AdditionalServiceViewModel.Name, searchDescription = Model.AdditionalServiceViewModel.Description })">@i</a>
+            </li>
+        }
+    </ul>
+</nav>

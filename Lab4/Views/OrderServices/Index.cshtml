@@ -1,0 +1,48 @@
+﻿@model Lab4.ViewModels.OrderServicesViewModel
+
+@{
+    ViewData["Title"] = "Order Services";
+}
+
+<h2>Order Services</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.ActionLink("Заказ", "Index", new { sortOrder = Model.OrderServiceViewModel.SortViewModel.NameSort })
+            </th>
+            <th>
+                @Html.ActionLink("Услуга", "Index", new { sortOrder = Model.OrderServiceViewModel.SortViewModel.NameSort })
+            </th>
+            <th>
+                @Html.ActionLink("Общая стоимость", "Index", new { sortOrder = Model.OrderServiceViewModel.SortViewModel.CostSort })
+            </th>
+            <th>
+                @Html.ActionLink("Количество", "Index", new { sortOrder = Model.OrderServiceViewModel.SortViewModel.NameSort })
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderServices)
+        {
+            <tr>
+                <td>@item.Order.OrderId</td>
+                <td>@item.Service.Name</td>
+                <td>@item.TotalCost</td>
+                <td>@item.Quantity</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<nav>
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.PageViewModel.TotalPages; i++)
+        {
+            <li class="page-item @(i == Model.PageViewModel.PageNumber ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = i, sortOrder = Model.OrderServiceViewModel.SortViewModel.CurrentState })">@i</a>
+            </li>
+        }
+    </ul>
+</nav>

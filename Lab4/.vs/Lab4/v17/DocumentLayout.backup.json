@@ -1,0 +1,615 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\viewmodels\\sortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\sortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\views\\adtypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\adtypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\controllers\\cachedcontroller_delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\cachedcontroller_delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\controllers\\cachedhomecontroller_delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\cachedhomecontroller_delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\controllers\\adtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\adtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\views\\additionalservices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\additionalservices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\controllers\\additionalservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\additionalservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\viewmodels\\additionalserviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\additionalserviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\viewmodels\\additionalservicesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\additionalservicesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\models\\additionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:models\\additionalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\views\\locations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\locations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\viewmodels\\locationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\locationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\viewmodels\\locationsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\locationsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\views\\cacheddata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\cacheddata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\controllers\\cacheddatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\cacheddatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\viewmodels\\pageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\pageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\controllers\\orderservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\orderservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab4\\views\\orderservices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\orderservices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CachedController_Delete.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\CachedController_Delete.cs",
+              "RelativeDocumentMoniker": "Controllers\\CachedController_Delete.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\CachedController_Delete.cs",
+              "RelativeToolTip": "Controllers\\CachedController_Delete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:27:04.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\Clients\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clients\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\Clients\\Index.cshtml",
+              "RelativeToolTip": "Views\\Clients\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:45:38.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAgwI4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:47:31.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SortViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\SortViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\SortViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\SortViewModel.cs",
+              "RelativeToolTip": "ViewModels\\SortViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:16:33.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\Employees\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\Employees\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employees\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:46:05.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwDkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:48:22.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:47:50.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CachedHomeController_Delete.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\CachedHomeController_Delete.cs",
+              "RelativeDocumentMoniker": "Controllers\\CachedHomeController_Delete.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\CachedHomeController_Delete.cs",
+              "RelativeToolTip": "Controllers\\CachedHomeController_Delete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:27:11.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "Controllers\\ClientsController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAgwI0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:45:52.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:50:25.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\AdTypes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdTypes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\AdTypes\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdTypes\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:45:15.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\AdTypesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdTypesController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\AdTypesController.cs",
+              "RelativeToolTip": "Controllers\\AdTypesController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAUwJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:45:25.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdditionalServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\AdditionalServicesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdditionalServicesController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\AdditionalServicesController.cs",
+              "RelativeToolTip": "Controllers\\AdditionalServicesController.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAUwKoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:43:31.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\AdditionalServices\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdditionalServices\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\AdditionalServices\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdditionalServices\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:43:10.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\Locations\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Locations\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\Locations\\Index.cshtml",
+              "RelativeToolTip": "Views\\Locations\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:30:51.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdditionalService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Models\\AdditionalService.cs",
+              "RelativeDocumentMoniker": "Models\\AdditionalService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Models\\AdditionalService.cs",
+              "RelativeToolTip": "Models\\AdditionalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T19:24:55.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdditionalServicesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\AdditionalServicesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AdditionalServicesViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\AdditionalServicesViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AdditionalServicesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T19:25:02.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdditionalServiceViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\AdditionalServiceViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AdditionalServiceViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\AdditionalServiceViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AdditionalServiceViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T19:25:07.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LocationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\LocationViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LocationViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\LocationViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LocationViewModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:30:13.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LocationsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\LocationsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LocationsViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\LocationsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LocationsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:30:08.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LocationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\LocationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LocationsController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\LocationsController.cs",
+              "RelativeToolTip": "Controllers\\LocationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:29:58.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\PageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\PageViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\PageViewModel.cs",
+              "RelativeToolTip": "ViewModels\\PageViewModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:18:51.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CachedDataController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\CachedDataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CachedDataController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\CachedDataController.cs",
+              "RelativeToolTip": "Controllers\\CachedDataController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvzwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:30:25.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\CachedData\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CachedData\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\CachedData\\Index.cshtml",
+              "RelativeToolTip": "Views\\CachedData\\Index.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAUwKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T18:31:42.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\OrderViewModel.cs",
+              "RelativeToolTip": "ViewModels\\OrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:24:02.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:58:28.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwFMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:23:14.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "Models\\Location.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Models\\Location.cs",
+              "RelativeToolTip": "Models\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:29:49.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:04:13.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:43:04.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\OrderServices\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\OrderServices\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\OrderServices\\Index.cshtml",
+              "RelativeToolTip": "Views\\OrderServices\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:48:47.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\OrderServicesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderServicesController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\OrderServicesController.cs",
+              "RelativeToolTip": "Controllers\\OrderServicesController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:49:06.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:50:04.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T17:01:48.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab4\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:50:05.936Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+﻿@model Lab4.ViewModels.AdTypesViewModel
+
+@{
+    ViewData["Title"] = "Ad Types";
+}
+
+<h2>Ad Types</h2>
+
+@using (Html.BeginForm("Index", "AdTypes", FormMethod.Post))
+{
+    <fieldset>
+        <legend>Search</legend>
+        Наименование типа рекламы: @Html.TextBox("Name", Model.AdTypeViewModel.Name)
+        Описание: @Html.TextBox("Description", Model.AdTypeViewModel.Description)
+        <input type="submit" value="Найти" />
+    </fieldset>
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.ActionLink("Name", "Index", new { sortOrder = Model.AdTypeViewModel.SortViewModel.NameSort })
+            </th>
+            <th>
+                @Html.ActionLink("Description", "Index", new { sortOrder = Model.AdTypeViewModel.SortViewModel.DescriptionSort })
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.AdTypes)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<nav>
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.PageViewModel.TotalPages; i++)
+        {
+            <li class="page-item @(i == Model.PageViewModel.PageNumber ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = i, sortOrder = Model.AdTypeViewModel.SortViewModel.CurrentState, searchName = Model.AdTypeViewModel.Name, searchDescription = Model.AdTypeViewModel.Description })">@i</a>
+            </li>
+        }
+    </ul>
+</nav>

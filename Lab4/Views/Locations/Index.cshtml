@@ -1,0 +1,58 @@
+﻿@model Lab4.ViewModels.LocationsViewModel
+
+@{
+    ViewData["Title"] = "Locations";
+}
+
+<h2>Locations</h2>
+
+@using (Html.BeginForm("Index", "Locations", FormMethod.Post))
+{
+    <fieldset>
+        <legend>Search</legend>
+        Наименование локации: @Html.TextBox("Name", Model.LocationViewModel.Name)
+        Описание: @Html.TextBox("LocationDescription", Model.LocationViewModel.LocationDescription)
+        <input type="submit" value="Найти" />
+    </fieldset>
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.ActionLink("Name", "Index", new { sortOrder = Model.LocationViewModel.SortViewModel.NameSort })
+            </th>
+            <th>
+                @Html.ActionLink("Description", "Index", new { sortOrder = Model.LocationViewModel.SortViewModel.DescriptionSort })
+            </th>
+            <th>
+                @Html.ActionLink("Cost", "Index", new { sortOrder = Model.LocationViewModel.SortViewModel.CostSort })
+            </th>
+            <th>Ad Type</th>
+            <th>Ad Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Locations)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.LocationDescription</td>
+                <td>@item.Cost</td>
+                <td>@item.AdType?.Name</td> <!-- Выводим название AdType -->
+                <td>@item.AdDescription</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<nav>
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.PageViewModel.TotalPages; i++)
+        {
+            <li class="page-item @(i == Model.PageViewModel.PageNumber ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = i, sortOrder = Model.LocationViewModel.SortViewModel.CurrentState, searchName = Model.LocationViewModel.Name, searchDescription = Model.LocationViewModel.LocationDescription })">@i</a>
+            </li>
+        }
+    </ul>
+</nav>

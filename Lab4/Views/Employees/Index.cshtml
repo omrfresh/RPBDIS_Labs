@@ -1,0 +1,54 @@
+﻿@model Lab4.ViewModels.EmployeesViewModel
+
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<h2>Employees</h2>
+
+@using (Html.BeginForm("Index", "Employees", FormMethod.Post))
+{
+    <fieldset>
+        <legend>Search</legend>
+        Имя: @Html.TextBox("FirstName", Model.EmployeeViewModel.FirstName)
+        Фамилия: @Html.TextBox("LastName", Model.EmployeeViewModel.LastName)
+        <input type="submit" value="Найти" />
+    </fieldset>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.ActionLink("Имя", "Index", new { sortOrder = Model.EmployeeViewModel.SortViewModel.NameSort })
+            </th>
+            <th>
+                @Html.ActionLink("Фамилия", "Index", new { sortOrder = Model.EmployeeViewModel.SortViewModel.NameSort })
+            </th>
+            <th>
+                @Html.ActionLink("Позиция", "Index", new { sortOrder = Model.EmployeeViewModel.SortViewModel.DescriptionSort })
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Employees)
+        {
+            <tr>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.Position</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<nav>
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.PageViewModel.TotalPages; i++)
+        {
+            <li class="page-item @(i == Model.PageViewModel.PageNumber ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = i, sortOrder = Model.EmployeeViewModel.SortViewModel.CurrentState })">@i</a>
+            </li>
+        }
+    </ul>
+</nav>

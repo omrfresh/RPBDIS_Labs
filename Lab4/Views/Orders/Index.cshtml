@@ -1,0 +1,57 @@
+﻿@model Lab4.ViewModels.OrdersViewModel
+
+@{
+    ViewData["Title"] = "Orders";
+}
+
+<h2>Orders</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.ActionLink("Дата заказа", "Index", new { sortOrder = Model.OrderViewModel.SortViewModel.DateSort })
+            </th>
+            <th>
+                @Html.ActionLink("Клиент", "Index", new { sortOrder = Model.OrderViewModel.SortViewModel.NameSort })
+            </th>
+            <th>
+                @Html.ActionLink("Локация", "Index", new { sortOrder = Model.OrderViewModel.SortViewModel.NameSort })
+            </th>
+            <th>
+                @Html.ActionLink("Сотрудник", "Index", new { sortOrder = Model.OrderViewModel.SortViewModel.NameSort })
+            </th>
+            <th>
+                @Html.ActionLink("Общая стоимость", "Index", new { sortOrder = Model.OrderViewModel.SortViewModel.CostSort })
+            </th>
+            <th>
+                @Html.ActionLink("Оплачено", "Index", new { sortOrder = Model.OrderViewModel.SortViewModel.NameSort })
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Orders)
+        {
+            <tr>
+                <td>@item.OrderDate</td>
+                <td>@item.Client?.FirstName @item.Client?.LastName</td>
+                <td>@item.Location?.Name</td>
+                <td>@item.Employee?.FirstName @item.Employee?.LastName</td>
+                <td>@item.TotalCost</td>
+                <td>@item.Paid</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<nav>
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.PageViewModel.TotalPages; i++)
+        {
+            <li class="page-item @(i == Model.PageViewModel.PageNumber ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = i, sortOrder = Model.OrderViewModel.SortViewModel.CurrentState })">@i</a>
+            </li>
+        }
+    </ul>
+</nav>
