@@ -37,4 +37,4 @@ jobs:
       if: failure()
       run: |
         echo "Build failed. Checking logs..."
-        cat Lab5/**/*.log
+        cat Lab4/**/*.log
