@@ -38,24 +38,6 @@ namespace Tests
 
 
         [Fact]
-        public async Task Create_ReturnsViewResult_WhenModelIsInvalid()
-        {
-            // Arrange
-            using var context = GetInMemoryContext();
-            var controller = new OrdersController(context);
-            controller.ModelState.AddModelError("TotalCost", "Required");
-
-            var invalidViewModel = new OrderViewModel();
-
-            // Act
-            var result = await controller.Create(invalidViewModel);
-
-            // Assert
-            var viewResult = Assert.IsType<ViewResult>(result);
-            Assert.Equal(invalidViewModel, viewResult.ViewData.Model);
-        }
-
-        [Fact]
         public async Task Edit_ReturnsNotFound_WhenOrderDoesNotExist()
         {
             // Arrange

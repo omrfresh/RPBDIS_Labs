@@ -8167,11 +8167,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Lab4.csproj",
+      "projectUniqueName": "C:\\Users\\Andrey Larionov\\Desktop\\RPBDISGit\\RPBDIS_Labs\\Lab5\\Lab4.csproj",
       "projectName": "Lab4",
-      "projectPath": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Lab4.csproj",
+      "projectPath": "C:\\Users\\Andrey Larionov\\Desktop\\RPBDISGit\\RPBDIS_Labs\\Lab5\\Lab4.csproj",
       "packagesPath": "C:\\Users\\Andrey Larionov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\obj\\",
+      "outputPath": "C:\\Users\\Andrey Larionov\\Desktop\\RPBDISGit\\RPBDIS_Labs\\Lab5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andrey Larionov\\AppData\\Roaming\\NuGet\\NuGet.Config",
