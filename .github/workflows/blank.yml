@@ -28,13 +28,7 @@ jobs:
         dotnet-version: ${{ env.DOTNET_VERSION }}
 
     - name: Install dependencies
-      run: dotnet restore Lab4/Lab4.sln
+      run: dotnet restore Lab5/Lab4.sln
 
     - name: Build
       run: dotnet build Lab5/Lab4.sln --configuration Release --no-restore
-
-    - name: Log errors
-      if: failure()
-      run: |
-        echo "Build failed. Checking logs..."
-        cat Lab5/**/*.log
