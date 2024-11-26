@@ -1,0 +1,61 @@
+﻿@model Lab4.ViewModels.OrdersViewModel
+
+@{
+    ViewData["Title"] = "Список заказов";
+}
+
+<h2 class="text-danger">Список заказов</h2>
+
+<table class="table table-striped">
+    <thead class="table-danger">
+        <tr>
+            <th>@Html.ActionLink("ID", "Index", new { sortOrder = Model.OrderViewModel.SortViewModel.CostSort })</th>
+            <th>@Html.ActionLink("Дата заказа", "Index", new { sortOrder = Model.OrderViewModel.SortViewModel.DateSort })</th>
+            <th>@Html.ActionLink("Клиент", "Index", new { sortOrder = Model.OrderViewModel.SortViewModel.NameSort })</th>
+            <th>@Html.ActionLink("Стоимость", "Index", new { sortOrder = Model.OrderViewModel.SortViewModel.CostSort })</th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Orders)
+        {
+                <tr>
+                    <td>@item.OrderId</td>
+                    <td>@item.OrderDate</td>
+                    <td>@item.Client.FirstName</td>
+                    <td>@item.TotalCost</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.OrderId" class="btn btn-info btn-sm">
+                            <i class="fas fa-info-circle"></i> Детали
+                        </a>
+                    @if (User.IsInRole("Admin"))
+                    {
+                                <a asp-action="Edit" asp-route-id="@item.OrderId" class="btn btn-warning btn-sm">
+                                    <i class="fas fa-edit"></i> Редактировать
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.OrderId" class="btn btn-danger btn-sm">
+                                    <i class="fas fa-trash"></i> Удалить
+                                </a>
+                    }
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>
+
+<nav>
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.PageViewModel.TotalPages; i++)
+        {
+                <li class="page-item @(i == Model.PageViewModel.PageNumber ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("Index", new { page = i, sortOrder = Model.OrderViewModel.SortViewModel.CurrentState })">@i</a>
+                </li>
+        }
+    </ul>
+</nav>
+
+<p>
+    <a asp-action="Create" class="btn btn-danger">
+        <i class="fas fa-plus"></i> Создать новый
+    </a>
+</p>

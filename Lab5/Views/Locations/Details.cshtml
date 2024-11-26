@@ -1,0 +1,30 @@
+﻿@model Lab4.Models.Location
+
+@{
+    ViewData["Title"] = "Детали локации";
+}
+
+<h1 class="text-danger">Детали локации</h1>
+
+<div class="card mt-4 bg-light">
+    <div class="card-body">
+        <h4 class="card-title">@Model.Name</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">ID</dt>
+            <dd class="col-sm-10">@Model.LocationId</dd>
+            <dt class="col-sm-2">Описание</dt>
+            <dd class="col-sm-10">@Model.LocationDescription</dd>
+            <dt class="col-sm-2">Стоимость</dt>
+            <dd class="col-sm-10">@Model.Cost</dd>
+            <dt class="col-sm-2">Тип объявления</dt>
+            <dd class="col-sm-10">@Model.AdType?.Name</dd>
+            <dt class="col-sm-2">Описание объявления</dt>
+            <dd class="col-sm-10">@Model.AdDescription</dd>
+        </dl>
+    </div>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary mt-2">
+    <i class="fas fa-arrow-left"></i> Вернуться к списку
+</a>

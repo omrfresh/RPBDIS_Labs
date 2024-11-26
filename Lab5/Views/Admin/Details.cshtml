@@ -1,0 +1,15 @@
+﻿@model IdentityUser
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@using Lab4.ViewModels
+
+<h2>Информация о пользователе</h2>
+
+<div>
+    <h4>Email: @Model.Email</h4>
+    <p><strong>Имя пользователя:</strong> @Model.UserName</p>
+    <p>
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Редактировать</a> |
+        <a asp-action="Index" class="btn btn-secondary">Назад к списку</a>
+    </p>
+</div>

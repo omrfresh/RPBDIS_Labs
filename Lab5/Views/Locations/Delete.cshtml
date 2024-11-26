@@ -1,0 +1,23 @@
+﻿@model Lab4.Models.Location
+
+@{
+    ViewData["Title"] = "Удаление локации";
+}
+
+<h1 class="text-danger">Удаление локации</h1>
+
+<h3>Вы уверены, что хотите удалить эту локацию?</h3>
+<div class="alert alert-warning">
+    <h4>@Model.Name</h4>
+    <p>@Model.LocationDescription</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="LocationId" />
+    <button type="submit" class="btn btn-danger">
+        <i class="fas fa-trash"></i> Удалить
+    </button>
+    <a asp-action="Index" class="btn btn-secondary">
+        <i class="fas fa-times"></i> Отмена
+    </a>
+</form>

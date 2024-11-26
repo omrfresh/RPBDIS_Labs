@@ -1,0 +1,71 @@
+﻿@model Lab4.ViewModels.ClientsViewModel
+
+@{
+    ViewData["Title"] = "Клиенты";
+}
+
+<h2 class="text-danger">Клиенты</h2>
+
+@using (Html.BeginForm("Index", "Clients", FormMethod.Post))
+{
+    <fieldset class="border p-2 mb-3">
+        <legend>Поиск</legend>
+        Имя: @Html.TextBox("searchFirstName", Model.ClientViewModel.FirstName, new { @class = "form-control" })
+        Фамилия: @Html.TextBox("searchLastName", Model.ClientViewModel.LastName, new { @class = "form-control" })
+        <input type="submit" value="Найти" class="btn btn-danger mt-2" />
+    </fieldset>
+}
+
+<table class="table table-striped">
+    <thead class="table-danger">
+        <tr>
+            <th>@Html.ActionLink("Имя", "Index", new { sortOrder = Model.ClientViewModel.SortViewModel.NameSort })</th>
+            <th>@Html.ActionLink("Фамилия", "Index", new { sortOrder = Model.ClientViewModel.SortViewModel.NameSort })</th>
+            <th>@Html.ActionLink("Адрес", "Index", new { sortOrder = Model.ClientViewModel.SortViewModel.DescriptionSort })</th>
+            <th>@Html.ActionLink("Телефон", "Index", new { sortOrder = Model.ClientViewModel.SortViewModel.CostSort })</th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Clients)
+        {
+            <tr>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.Address</td>
+                <td>@item.PhoneNumber</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.ClientId" class="btn btn-info btn-sm">
+                        <i class="fas fa-info-circle"></i> Детали
+                    </a>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.ClientId" class="btn btn-warning btn-sm">
+                            <i class="fas fa-edit"></i> Редактировать
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.ClientId" class="btn btn-danger btn-sm">
+                            <i class="fas fa-trash"></i> Удалить
+                        </a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<nav>
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.PageViewModel.TotalPages; i++)
+        {
+            <li class="page-item @(i == Model.PageViewModel.PageNumber ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = i, sortOrder = Model.ClientViewModel.SortViewModel.CurrentState, searchFirstName = Model.ClientViewModel.FirstName, searchLastName = Model.ClientViewModel.LastName })">@i</a>
+            </li>
+        }
+    </ul>
+</nav>
+
+<p>
+    <a asp-action="Create" class="btn btn-danger">
+        <i class="fas fa-plus"></i> Создать нового клиента
+    </a>
+</p>

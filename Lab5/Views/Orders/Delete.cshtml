@@ -1,0 +1,23 @@
+﻿@model Lab4.Models.Order
+
+@{
+    ViewData["Title"] = "Удаление заказа";
+}
+
+<h1 class="text-danger">Удаление заказа</h1>
+
+<h3>Вы уверены, что хотите удалить этот заказ?</h3>
+<div class="alert alert-warning">
+    <h4>@Model.OrderId</h4>
+    <p>@Model.Client.FirstName - @Model.TotalCost</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="OrderId" />
+    <button type="submit" class="btn btn-danger">
+        <i class="fas fa-trash"></i> Удалить
+    </button>
+    <a asp-action="Index" class="btn btn-secondary">
+        <i class="fas fa-times"></i> Отмена
+    </a>
+</form>

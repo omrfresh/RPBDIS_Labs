@@ -1,0 +1,23 @@
+﻿@model Lab4.Models.AdType
+
+@{
+    ViewData["Title"] = "Удаление типа рекламы";
+}
+
+<h1 class="text-danger">Удаление типа рекламы</h1>
+
+<h3>Вы уверены, что хотите удалить это?</h3>
+<div class="alert alert-warning">
+    <h4>@Model.Name</h4>
+    <p>@Model.Description</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="AdTypeId" />
+    <button type="submit" class="btn btn-danger">
+        <i class="fas fa-trash"></i> Удалить
+    </button>
+    <a asp-action="Index" class="btn btn-secondary">
+        <i class="fas fa-times"></i> Отмена
+    </a>
+</form>

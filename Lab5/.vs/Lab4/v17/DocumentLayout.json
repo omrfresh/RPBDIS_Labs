@@ -1,0 +1,1430 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\controllers\\additionalservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\additionalservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\controllers\\adtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\adtypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\adtypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\adtypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\additionalservices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\additionalservices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\shared\\cannotdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\shared\\cannotdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\viewmodels\\cannotdeleteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\cannotdeleteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\orderservices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\orderservices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\orderservices\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\orderservices\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\orderservices\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\orderservices\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\orderservices\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\orderservices\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\orderservices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\orderservices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\controllers\\orderservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\orderservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\models\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:models\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\locations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\locations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\locations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\locations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\locations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\locations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\locations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\locations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\locations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\locations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB578418-8845-49A9-A7B2-21789157C4E2}|..\\Tests\\Tests.csproj|c:\\users\\andrey larionov\\desktop\\tests\\orderservicescontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\data\\advertisingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:data\\advertisingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Lab4DB/True/SqlTable/dbo.OrderServices.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\adtypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\adtypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\adtypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\adtypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\adtypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\adtypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\adtypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\adtypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\viewmodels\\ordersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\ordersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\models\\adtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:models\\adtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\viewmodels\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\viewmodels\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\additionalservices\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\additionalservices\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\additionalservices\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\additionalservices\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\additionalservices\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\additionalservices\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\additionalservices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\additionalservices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\viewmodels\\orderservicesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\orderservicesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\viewmodels\\orderserviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\orderserviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\clients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\clients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\clients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\clients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\clients\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\clients\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Lab4DB/True/SqlTable/dbo.AdTypes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\controllers\\cacheddatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:controllers\\cacheddatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\viewmodels\\employeesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\employeesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\viewmodels\\sortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\sortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\viewmodels\\additionalserviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\additionalserviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\viewmodels\\additionalservicesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\additionalservicesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\viewmodels\\locationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\locationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\viewmodels\\locationsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\locationsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\cacheddata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\cacheddata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\viewmodels\\pageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\pageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|c:\\users\\andrey larionov\\desktop\\lab5\\migrations\\20241125185850_secinitialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260A8A81-7670-40DD-AEA5-D195BC9E1478}|Lab4.csproj|solutionrelative:migrations\\20241125185850_secinitialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdditionalServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\AdditionalServicesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdditionalServicesController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\AdditionalServicesController.cs",
+              "RelativeToolTip": "Controllers\\AdditionalServicesController.cs",
+              "ViewState": "AgIAAG8BAAAAAAAAAAAkwJQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:41:00.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\AdTypesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdTypesController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\AdTypesController.cs",
+              "RelativeToolTip": "Controllers\\AdTypesController.cs",
+              "ViewState": "AgIAAFgBAAAAAAAAAAAkwH0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:41:33.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "Controllers\\ClientsController.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAkwMoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:41:48.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T17:01:48.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAkwM0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:42:06.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LocationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\LocationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LocationsController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\LocationsController.cs",
+              "RelativeToolTip": "Controllers\\LocationsController.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAqwO0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:05:31.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdTypes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdTypes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdTypes\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdTypes\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:45:15.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T21:09:24.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T20:29:29.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdditionalServices\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdditionalServices\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdditionalServices\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdditionalServices\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowEQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:43:10.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAkwEgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T17:21:18.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:24:19.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CannotDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Shared\\CannotDelete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\CannotDelete.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Shared\\CannotDelete.cshtml",
+              "RelativeToolTip": "Views\\Shared\\CannotDelete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T20:58:34.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CannotDeleteViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\CannotDeleteViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CannotDeleteViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\CannotDeleteViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CannotDeleteViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:59:25.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA2wCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:24:24.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\OrderServices\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\OrderServices\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\OrderServices\\Edit.cshtml",
+              "RelativeToolTip": "Views\\OrderServices\\Edit.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T15:37:43.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\OrderServices\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\OrderServices\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\OrderServices\\Index.cshtml",
+              "RelativeToolTip": "Views\\OrderServices\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T15:50:27.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T13:20:45.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Create.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T13:21:09.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Orders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Orders\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Edit.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T13:22:36.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T13:23:02.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\OrderServices\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\OrderServices\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\OrderServices\\Create.cshtml",
+              "RelativeToolTip": "Views\\OrderServices\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T15:37:35.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Models\\OrderService.cs",
+              "RelativeDocumentMoniker": "Models\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Models\\OrderService.cs",
+              "RelativeToolTip": "Models\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:15:11.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\OrderServicesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderServicesController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\OrderServicesController.cs",
+              "RelativeToolTip": "Controllers\\OrderServicesController.cs",
+              "ViewState": "AgIAAIsBAAAAAAAAAAAowLEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T15:37:04.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Locations\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Locations\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Locations\\Index.cshtml",
+              "RelativeToolTip": "Views\\Locations\\Index.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowEgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T16:39:51.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\OrderServices\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\OrderServices\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\OrderServices\\Details.cshtml",
+              "RelativeToolTip": "Views\\OrderServices\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T13:57:16.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\OrderServices\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\OrderServices\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\OrderServices\\Delete.cshtml",
+              "RelativeToolTip": "Views\\OrderServices\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T13:57:47.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Locations\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Locations\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Locations\\Details.cshtml",
+              "RelativeToolTip": "Views\\Locations\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T07:16:40.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Locations\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Locations\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Locations\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Locations\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T07:17:15.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Locations\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Locations\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Locations\\Create.cshtml",
+              "RelativeToolTip": "Views\\Locations\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowCkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T16:05:57.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OrderServicesControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Tests\\OrderServicesControllerTest.cs",
+              "RelativeDocumentMoniker": "..\\Tests\\OrderServicesControllerTest.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Tests\\OrderServicesControllerTest.cs",
+              "RelativeToolTip": "..\\Tests\\OrderServicesControllerTest.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAApwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:29:21.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Locations\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Locations\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Locations\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Locations\\Edit.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowCoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T16:06:01.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AdvertisingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Data\\AdvertisingDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AdvertisingDbContext.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Data\\AdvertisingDbContext.cs",
+              "RelativeToolTip": "Data\\AdvertisingDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:12:28.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T18:46:51.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T17:22:38.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T17:22:20.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T20:16:21.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T19:36:21.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T18:47:16.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Admin\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Admin\\Details.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T20:17:13.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "dbo.OrderServices.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Lab4DB/True/SqlTable/dbo.OrderServices.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Lab4DB/True/SqlTable/dbo.OrderServices.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-26T04:43:25.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "Models\\Location.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Models\\Location.cs",
+              "RelativeToolTip": "Models\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:29:49.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Employees\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Employees\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employees\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowEcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:46:05.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdTypes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdTypes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdTypes\\Edit.cshtml",
+              "RelativeToolTip": "Views\\AdTypes\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T07:56:26.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Clients\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clients\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Clients\\Index.cshtml",
+              "RelativeToolTip": "Views\\Clients\\Index.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowEYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:45:38.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdTypes\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdTypes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdTypes\\Details.cshtml",
+              "RelativeToolTip": "Views\\AdTypes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T07:56:16.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdTypes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdTypes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdTypes\\Delete.cshtml",
+              "RelativeToolTip": "Views\\AdTypes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T07:55:59.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdTypes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdTypes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdTypes\\Create.cshtml",
+              "RelativeToolTip": "Views\\AdTypes\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T07:55:46.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:42:58.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\OrderViewModel.cs",
+              "RelativeToolTip": "ViewModels\\OrderViewModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:24:02.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "OrdersViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\OrdersViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\OrdersViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\OrdersViewModel.cs",
+              "RelativeToolTip": "ViewModels\\OrdersViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T13:36:03.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:42:54.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "Models\\Client.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Models\\Client.cs",
+              "RelativeToolTip": "Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:42:51.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AdType.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Models\\AdType.cs",
+              "RelativeDocumentMoniker": "Models\\AdType.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Models\\AdType.cs",
+              "RelativeToolTip": "Models\\AdType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:42:47.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAowBEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:23:14.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CreateUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\CreateUserViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CreateUserViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\CreateUserViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CreateUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T17:24:54.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AccountViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\AccountViewModels.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AccountViewModels.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\AccountViewModels.cs",
+              "RelativeToolTip": "ViewModels\\AccountViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:47:49.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdditionalServices\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdditionalServices\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdditionalServices\\Edit.cshtml",
+              "RelativeToolTip": "Views\\AdditionalServices\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T07:39:41.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\SeedData.cs",
+              "RelativeDocumentMoniker": "SeedData.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\SeedData.cs",
+              "RelativeToolTip": "SeedData.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T17:19:22.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20241125185850_SecInitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Migrations\\20241125185850_SecInitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241125185850_SecInitialCreate.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Migrations\\20241125185850_SecInitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20241125185850_SecInitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:58:50.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdditionalServices\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdditionalServices\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdditionalServices\\Details.cshtml",
+              "RelativeToolTip": "Views\\AdditionalServices\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T07:39:59.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdditionalServices\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdditionalServices\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdditionalServices\\Delete.cshtml",
+              "RelativeToolTip": "Views\\AdditionalServices\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T07:40:37.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdditionalServices\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdditionalServices\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\AdditionalServices\\Create.cshtml",
+              "RelativeToolTip": "Views\\AdditionalServices\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T07:39:22.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "OrderServicesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\OrderServicesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\OrderServicesViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\OrderServicesViewModel.cs",
+              "RelativeToolTip": "ViewModels\\OrderServicesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T13:28:22.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "OrderServiceViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\OrderServiceViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\OrderServiceViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\OrderServiceViewModel.cs",
+              "RelativeToolTip": "ViewModels\\OrderServiceViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T13:28:16.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Employees\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Employees\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Employees\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T13:14:28.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Employees\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Employees\\Details.cshtml",
+              "RelativeToolTip": "Views\\Employees\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T13:16:10.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Employees\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Employees\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Employees\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T13:14:56.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Employees\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Employees\\Create.cshtml",
+              "RelativeToolTip": "Views\\Employees\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T13:14:07.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Clients\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clients\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Clients\\Details.cshtml",
+              "RelativeToolTip": "Views\\Clients\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T12:40:10.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Clients\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clients\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Clients\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Clients\\Edit.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwCsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T12:35:53.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Clients\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clients\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Clients\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Clients\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T12:36:31.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Clients\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clients\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Clients\\Create.cshtml",
+              "RelativeToolTip": "Views\\Clients\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T12:35:17.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-25T08:32:15.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "dbo.AdTypes.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Lab4DB/True/SqlTable/dbo.AdTypes.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Lab4DB/True/SqlTable/dbo.AdTypes.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-25T08:23:00.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "CachedDataController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\CachedDataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CachedDataController.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Controllers\\CachedDataController.cs",
+              "RelativeToolTip": "Controllers\\CachedDataController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:30:25.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "EmployeesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\EmployeesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\EmployeesViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\EmployeesViewModel.cs",
+              "RelativeToolTip": "ViewModels\\EmployeesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T21:08:30.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "SortViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\SortViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\SortViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\SortViewModel.cs",
+              "RelativeToolTip": "ViewModels\\SortViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:16:33.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "AdditionalServicesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\AdditionalServicesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AdditionalServicesViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\AdditionalServicesViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AdditionalServicesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T19:25:02.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "AdditionalServiceViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\AdditionalServiceViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AdditionalServiceViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\AdditionalServiceViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AdditionalServiceViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T19:25:07.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "LocationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\LocationViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LocationViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\LocationViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LocationViewModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:30:13.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "LocationsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\LocationsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LocationsViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\LocationsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LocationsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:30:08.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "PageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\PageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\PageViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\PageViewModel.cs",
+              "RelativeToolTip": "ViewModels\\PageViewModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:18:51.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\CachedData\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CachedData\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\CachedData\\Index.cshtml",
+              "RelativeToolTip": "Views\\CachedData\\Index.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAUwKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T18:31:42.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:04:13.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:43:04.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:50:04.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Andrey Larionov\\Desktop\\Lab5\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T16:50:05.936Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

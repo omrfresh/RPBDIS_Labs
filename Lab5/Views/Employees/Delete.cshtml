@@ -1,0 +1,23 @@
+﻿@model Lab4.Models.Employee
+
+@{
+    ViewData["Title"] = "Удаление сотрудника";
+}
+
+<h1 class="text-danger">Удаление сотрудника</h1>
+
+<h3>Вы уверены, что хотите удалить этого сотрудника?</h3>
+<div class="alert alert-warning">
+    <h4>@Model.FirstName @Model.LastName</h4>
+    <p>Позиция: @Model.Position</p>
+</div>
+
+<form asp-action="Delete">
+    @Html.HiddenFor(model => model.EmployeeId)
+    <button type="submit" class="btn btn-danger">
+        <i class="fas fa-trash"></i> Удалить
+    </button>
+    <a asp-action="Index" class="btn btn-secondary">
+        <i class="fas fa-times"></i> Отмена
+    </a>
+</form>

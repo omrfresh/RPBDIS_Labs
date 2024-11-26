@@ -1,0 +1,26 @@
+﻿@model Lab4.Models.OrderService
+
+@{
+    ViewData["Title"] = "Подробности услуги заказа";
+}
+
+<h1 class="text-danger">Подробности услуги заказа</h1>
+
+<div class="card mt-4 bg-light">
+    <div class="card-body">
+        <h4 class="card-title">@Model.OrderServiceId</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">Заказ</dt>
+            <dd class="col-sm-10">@Model.Order.OrderId</dd>
+            <dt class="col-sm-2">Услуга</dt>
+            <dd class="col-sm-10">@Model.Service.Name</dd>
+            <dt class="col-sm-2">Количество</dt>
+            <dd class="col-sm-10">@Model.Quantity</dd>
+            <dt class="col-sm-2">Стоимость</dt>
+            <dd class="col-sm-10">@Model.TotalCost</dd>
+        </dl>
+    </div>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary mt-2">Вернуться к списку</a>
