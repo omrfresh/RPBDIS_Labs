@@ -32,3 +32,6 @@ jobs:
 
     - name: Build
       run: dotnet build Lab5/Lab4.sln --configuration Release --no-restore
+      
+    - name: Test
+      run: dotnet test --no-restore --verbosity normal
