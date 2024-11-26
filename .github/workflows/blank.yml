@@ -2,19 +2,22 @@ name: build
 
 on:
   push:
+    branches: [ Lab5 ]
+    paths:
+      - 'Lab5/**.cs'
+      - 'Lab5/**.csproj'
   pull_request:
     branches: [ Lab5 ]
     paths:
-    - 'Lab5/**.cs'
-    - 'Lab5/**.csproj'
+      - 'Lab5/**.cs'
+      - 'Lab5/**.csproj'
 
 env:
   DOTNET_VERSION: '8.0' # The .NET SDK version to use
 
 jobs:
   build:
-
-    name: build-${{matrix.os}}
+    name: build-${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -32,6 +35,6 @@ jobs:
 
     - name: Build
       run: dotnet build Lab5/Lab4.sln --configuration Release --no-restore
-      
+
     - name: Test
-      run: dotnet test --no-restore --verbosity normal
+      run: dotnet test Tests/ --no-restore --verbosity normal
