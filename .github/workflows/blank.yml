@@ -1,4 +1,4 @@
-name: build
+name: build and test
 
 on:
   push:
@@ -34,4 +34,4 @@ jobs:
       run: dotnet build Lab5/Lab4.sln --configuration Release --no-restore
 
     - name: Test
-      run: dotnet test --no-restore --verbosity normal
+      run: dotnet test Tests/ --no-restore --verbosity normal
