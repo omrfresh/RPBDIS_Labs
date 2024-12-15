@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Клиенты</title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <link href="lib/jquery-ui/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    <script src="lib/jquery-ui/jquery-ui.js"></script>
+    <script src="lib/jquery-ui/ui/i18n/datepicker-ru.js"></script>
+    <script>
+        $(function () {
+            //ввод даты с использованием специального окна
+            $("#date").datepicker({ dateFormat: "yy-mm-dd" });
+        });
+    </script>
+</head>
+<body onload="">
+    <div class="container">
+        <h2>Список клиентов</h2>
+        <form name="clientForm">
+            <table border="0">
+                <tr>
+                    <td>
+                        <label for="clientId" id="typeCRUD" name="typeCRUD">Добавить:</label>
+                        <input type="hidden" id="clientId" name="clientId" value=0 />
+                        <div class="form-group">
+                            <label>Имя:</label>
+                            <input class="form-control" name="firstName" id="firstName" />
+                        </div>
+                        <div class="form-group">
+                            <label>Фамилия:</label>
+                            <input class="form-control" name="lastName" id="lastName" />
+                        </div>
+                        <div class="form-group">
+                            <label>Адрес:</label>
+                            <input class="form-control" name="address" id="address" />
+                        </div>
+                        <div class="form-group">
+                            <label>Телефон:</label>
+                            <input class="form-control" name="phoneNumber" id="phoneNumber" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="panel-body">
+                            <button id="saveBtn" type="submit" class="btn btn-sm btn-primary">Сохранить</button>
+                            <a id="reset" class="btn btn-sm btn-primary">Сбросить</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <table class="table table-condensed table-striped table-bordered">
+            <thead><tr><th>Код</th><th>Имя</th><th>Фамилия</th><th>Адрес</th><th>Телефон</th><th>Действие</th></tr></thead>
+            <tbody id="data"></tbody>
+        </table>
+    </div>
+
+    <script>
+        // Получение всех клиентов
+        function GetClients() {
+            $.ajax({
+                url: '/api/clients',
+                type: 'GET',
+                contentType: "application/json",
+                success: function (clients) {
+                    var rows = "";
+                    $.each(clients, function (index, client) {
+                        rows += row(client);
+                    })
+                    $("table tbody#data").append(rows);
+                }
+            });
+        }
+
+        // Получение одного клиента
+        function GetClient(id) {
+            $.ajax({
+                url: '/api/clients/' + id,
+                type: 'GET',
+                contentType: "application/json",
+                success: function (client) {
+                    var form = document.forms["clientForm"];
+                    form.elements["clientId"].value = client.clientId;
+                    form.elements["firstName"].value = client.firstName;
+                    form.elements["lastName"].value = client.lastName;
+                    form.elements["address"].value = client.address;
+                    form.elements["phoneNumber"].value = client.phoneNumber;
+                }
+            });
+        }
+
+        // Добавление клиента
+        function CreateClient(firstName, lastName, address, phoneNumber) {
+            $.ajax({
+                url: "api/clients",
+                contentType: "application/json",
+                method: "POST",
+                data: JSON.stringify({
+                    firstName: firstName,
+                    lastName: lastName,
+                    address: address,
+                    phoneNumber: phoneNumber
+                }),
+                success: function (client) {
+                    reset();
+                    $("table tbody#data").append(row(client));
+                }
+            })
+        }
+
+        // Изменение клиента
+        function EditClient(clientId, firstName, lastName, address, phoneNumber) {
+            $.ajax({
+                url: "api/clients/" + clientId,
+                contentType: "application/json",
+                method: "PUT",
+                data: JSON.stringify({
+                    clientId: parseInt(clientId),
+                    firstName: firstName,
+                    lastName: lastName,
+                    address: address,
+                    phoneNumber: phoneNumber
+                }),
+                success: function (client) {
+                    reset();
+                    $("tr[data-rowid='" + client.clientId + "']").replaceWith(row(client));
+                }
+            })
+        }
+
+        // сброс формы
+        function reset() {
+            var form = document.forms["clientForm"];
+            form.reset();
+            form.elements["clientId"].value = 0;
+            $("#typeCRUD").html("Добавить:");
+        }
+
+        // Удаление клиента
+        function DeleteClient(id) {
+            $.ajax({
+                url: "api/clients/" + id,
+                contentType: "application/json",
+                method: "DELETE",
+                success: function (client) {
+                    $("tr[data-rowid='" + id + "']").remove();
+                }
+            })
+        }
+
+        // создание строки для таблицы
+        var row = function (client) {
+            return "<tr data-rowid='" + client.clientId + "'><td>" + client.clientId + "</td>" +
+                "<td>" + client.firstName + "</td>" +
+                "<td>" + client.lastName + "</td>" +
+                "<td>" + client.address + "</td>" +
+                "<td>" + client.phoneNumber + "</td>" +
+                "<td><a class='editLink' data-id='" + client.clientId + "'>Изменить</a> | " +
+                "<a class='removeLink' data-id='" + client.clientId + "'>Удалить</a></td></tr>";
+        }
+
+        // сброс значений формы
+        $("#reset").click(function (e) {
+            e.preventDefault();
+            reset();
+        })
+
+        // фильтрация
+        $("#filter").click(function (e) {
+            GetClients();
+        })
+
+        // отправка формы
+        $("form").submit(function (e) {
+            e.preventDefault();
+            var clientId = this.elements["clientId"].value;
+            var firstName = this.elements["firstName"].value;
+            var lastName = this.elements["lastName"].value;
+            var address = this.elements["address"].value;
+            var phoneNumber = this.elements["phoneNumber"].value;
+            if (clientId == 0)
+                CreateClient(firstName, lastName, address, phoneNumber);
+            else
+                EditClient(clientId, firstName, lastName, address, phoneNumber);
+        });
+
+        // нажатие на ссылку Изменить
+        $("body").on("click", ".editLink", function () {
+            var id = $(this).data("id");
+            $("#typeCRUD").html("Изменить:");
+            GetClient(id);
+            reset();
+        })
+
+        // нажатие на ссылку Удалить
+        $("body").on("click", ".removeLink", function () {
+            var id = $(this).data("id");
+            DeleteClient(id);
+            reset();
+        })
+
+        // загрузка данных для таблицы и ее формирование
+        GetClients();
+    </script>
+</body>
+</html>

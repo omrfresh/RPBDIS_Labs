@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Локации</title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <link href="lib/jquery-ui/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    <script src="lib/jquery-ui/jquery-ui.js"></script>
+    <script src="lib/jquery-ui/ui/i18n/datepicker-ru.js"></script>
+    <script>
+        $(function () {
+            //ввод даты с использованием специального окна
+            $("#date").datepicker({ dateFormat: "yy-mm-dd" });
+
+            // Инициализация страницы
+            initializePage();
+
+            // Обработка клика на кнопку "Загрузить"
+            $("#filter").click(function () {
+                GetLocations();
+            });
+
+            // Обработка отправки формы
+            $("form").submit(function (e) {
+                e.preventDefault();
+                const form = $(this);
+                const locationId = form.find("#locationId").val();
+                const locationData = {
+                    locationId: parseInt(locationId, 10),
+                    name: form.find("#name").val(),
+                    locationDescription: form.find("#locationDescription").val(),
+                    adTypeId: form.find("#adTypeId").val(),
+                    adDescription: form.find("#adDescription").val(),
+                    cost: parseFloat(form.find("#cost").val())
+                };
+                if (locationId == 0) {
+                    CreateLocation(locationData);
+                } else {
+                    EditLocation(locationId, locationData);
+                }
+            });
+
+            // Обработка клика на кнопку "Сбросить"
+            $("#reset").click(function () {
+                resetForm();
+            });
+
+            // Обработка клика на ссылку "Изменить"
+            $("body").on("click", ".editLink", function () {
+                const id = $(this).data("id");
+                Edit(id);
+            });
+
+            // Обработка клика на ссылку "Удалить"
+            $("body").on("click", ".removeLink", function () {
+                const id = $(this).data("id");
+                Delete(id);
+            });
+        });
+
+        function initializePage() {
+            GetAdTypes();
+            GetLocations();
+        }
+
+        function GetAdTypes() {
+            $.ajax({
+                url: '/api/locations/adtypes',
+                type: 'GET',
+                contentType: "application/json",
+                success: function (adTypes) {
+                    const select = $("#adTypeId");
+                    adTypes.forEach(adType => {
+                        select.append($("<option></option>")
+                            .attr("value", adType.adTypeId)
+                            .text(adType.name));
+                    });
+                },
+                error: function () {
+                    console.error("Ошибка при загрузке типов рекламы.");
+                }
+            });
+        }
+
+        function GetLocations() {
+            $.ajax({
+                url: '/api/locations',
+                type: 'GET',
+                contentType: "application/json",
+                success: function (locations) {
+                    const rows = $("table tbody#data");
+                    rows.empty();
+                    locations.forEach(location => rows.append(row(location)));
+                },
+                error: function () {
+                    console.error("Ошибка при загрузке списка локаций.");
+                }
+            });
+        }
+
+        function row(location) {
+            return `
+                    <tr data-rowid='${location.locationId}'>
+                        <td>${location.locationId}</td>
+                        <td>${location.name}</td>
+                        <td>${location.locationDescription}</td>
+                        <td>${location.adTypeName || ""}</td>
+                        <td>${location.adDescription}</td>
+                        <td>${location.cost}</td>
+                        <td>
+                            <a class="editLink" data-id="${location.locationId}">Изменить</a>
+                            <a class="removeLink" data-id="${location.locationId}">Удалить</a>
+                        </td>
+                    </tr>
+                `;
+        }
+
+        function Edit(id) {
+            $("#typeCRUD").html("Изменить:");
+            $.ajax({
+                url: '/api/locations/' + id,
+                type: 'GET',
+                contentType: "application/json",
+                success: function (location) {
+                    const form = $("form");
+                    form.find("#locationId").val(location.locationId);
+                    form.find("#name").val(location.name);
+                    form.find("#locationDescription").val(location.locationDescription);
+                    form.find("#adTypeId").val(location.adTypeId);
+                    form.find("#adDescription").val(location.adDescription);
+                    form.find("#cost").val(location.cost);
+                },
+                error: function () {
+                    console.error("Ошибка при загрузке данных локации.");
+                }
+            });
+        }
+
+        function Delete(id) {
+            $.ajax({
+                url: "/api/locations/" + id,
+                type: "DELETE",
+                success: function () {
+                    $("tr[data-rowid='" + id + "']").remove();
+                },
+                error: function () {
+                    console.error("Ошибка при удалении локации.");
+                }
+            });
+        }
+
+        function CreateLocation(locationData) {
+            $.ajax({
+                url: "/api/locations",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify(locationData),
+                success: function (location) {
+                    resetForm();
+                    $("table tbody#data").append(row(location));
+                },
+                error: function () {
+                    console.error("Ошибка при создании локации.");
+                }
+            });
+        }
+
+        function EditLocation(id, locationData) {
+            $.ajax({
+                url: "/api/locations/" + id,
+                type: "PUT",
+                contentType: "application/json",
+                data: JSON.stringify(locationData),
+                success: function (location) {
+                    resetForm();
+                    $("tr[data-rowid='" + location.locationId + "']").replaceWith(row(location));
+                },
+                error: function (error) {
+                    console.error("Ошибка при обновлении локации:", error.responseText);
+                }
+            });
+        }
+
+        function resetForm() {
+            const form = $("form")[0];
+            reset();
+            $("#locationId").val(0);
+            $("#typeCRUD").html("Добавить:");
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Список локаций</h2>
+        <form name="locationForm">
+            <table border="0">
+                <tr>
+                    <td>
+                        <label for="locationId" id="typeCRUD">Добавить:</label>
+                        <input type="hidden" id="locationId" name="locationId" value="0" />
+                        <div class="form-group">
+                            <label>Название:</label>
+                            <input class="form-control" name="name" id="name" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Описание:</label>
+                            <input class="form-control" name="locationDescription" id="locationDescription" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Тип рекламы:</label>
+                            <select id="adTypeId" name="adTypeId" required></select>
+                        </div>
+                        <div class="form-group">
+                            <label>Описание рекламы:</label>
+                            <input class="form-control" name="adDescription" id="adDescription" />
+                        </div>
+                        <div class="form-group">
+                            <label>Стоимость:</label>
+                            <input class="form-control" name="cost" id="cost" required type="number" step="0.01" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="panel-body">
+                            <button id="saveBtn" type="submit" class="btn btn-sm btn-primary">Сохранить</button>
+                            <button type="button" id="reset" class="btn btn-sm btn-primary">Сбросить</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <table class="table table-condensed table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Код</th>
+                    <th>Название</th>
+                    <th>Описание</th>
+                    <th>Тип рекламы</th>
+                    <th>Описание рекламы</th>
+                    <th>Стоимость</th>
+                    <th>Действие</th>
+                </tr>
+            </thead>
+            <tbody id="data"></tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+	<assembly>
+		<name>Lab6</name>
+	</assembly>
+	<members>
+		<!-- Комментарии для методов контроллера AdTypesController -->
+		<member name="T:Lab6.Controllers.AdTypesController">
+			<summary>
+				Контроллер для работы с типами рекламы.
+			</summary>
+		</member>
+		<member name="M:Lab6.Controllers.AdTypesController.GetAdTypes">
+			<summary>
+				Получение списка всех типов рекламы.
+			</summary>
+			<returns>Список типов рекламы.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.AdTypesController.GetAdType(System.Int32)">
+			<summary>
+				Получение данных одного типа рекламы.
+			</summary>
+			<param name="id">Код типа рекламы.</param>
+			<returns>Данные типа рекламы.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.AdTypesController.PostAdType(Lab6.ViewModels.AdTypeViewModel)">
+			<summary>
+				Регистрация нового типа рекламы.
+			</summary>
+			<param name="adType">Данные типа рекламы.</param>
+			<returns>Созданный тип рекламы.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.AdTypesController.PutAdType(System.Int32,Lab6.ViewModels.AdTypeViewModel)">
+			<summary>
+				Обновление данных одного типа рекламы.
+			</summary>
+			<param name="id">Код типа рекламы.</param>
+			<param name="adType">Данные типа рекламы.</param>
+			<returns>Статус.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.AdTypesController.DeleteAdType(System.Int32)">
+			<summary>
+				Удаление данных одного типа рекламы.
+			</summary>
+			<param name="id">Код типа рекламы.</param>
+			<returns>Статус.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.AdTypesController.FetchAdTypes">
+			<summary>
+				Получение HTML-страницы для отображения типов рекламы.
+			</summary>
+			<returns>HTML.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.AdTypesController.JqAdTypes">
+			<summary>
+				Получение HTML-страницы для отображения типов рекламы.
+			</summary>
+			<returns>HTML.</returns>
+		</member>
+
+		<!-- Комментарии для методов контроллера LocationsController -->
+		<member name="T:Lab6.Controllers.LocationsController">
+			<summary>
+				Контроллер для работы с локациями.
+			</summary>
+		</member>
+		<member name="M:Lab6.Controllers.LocationsController.GetLocations">
+			<summary>
+				Получение списка всех локаций.
+			</summary>
+			<returns>Список локаций.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.LocationsController.GetLocation(System.Int32)">
+			<summary>
+				Получение данных одной локации.
+			</summary>
+			<param name="id">Код локации.</param>
+			<returns>Данные локации.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.LocationsController.PostLocation(Lab6.ViewModels.LocationViewModel)">
+			<summary>
+				Регистрация новой локации.
+			</summary>
+			<param name="location">Данные локации.</param>
+			<returns>Созданная локация.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.LocationsController.PutLocation(System.Int32,Lab6.ViewModels.LocationViewModel)">
+			<summary>
+				Обновление данных одной локации.
+			</summary>
+			<param name="id">Код локации.</param>
+			<param name="location">Данные локации.</param>
+			<returns>Статус.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.LocationsController.DeleteLocation(System.Int32)">
+			<summary>
+				Удаление данных одной локации.
+			</summary>
+			<param name="id">Код локации.</param>
+			<returns>Статус.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.LocationsController.GetAdTypes">
+			<summary>
+				Получение списка всех типов рекламы.
+			</summary>
+			<returns>Список типов рекламы.</returns>
+		</member>
+
+		<!-- Комментарии для методов контроллера ClientsController -->
+		<member name="T:Lab6.Controllers.ClientsController">
+			<summary>
+				Контроллер для работы с клиентами.
+			</summary>
+		</member>
+		<member name="M:Lab6.Controllers.ClientsController.GetClients">
+			<summary>
+				Получение списка всех клиентов.
+			</summary>
+			<returns>Список клиентов.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.ClientsController.GetClient(System.Int32)">
+			<summary>
+				Получение данных одного клиента.
+			</summary>
+			<param name="id">Код клиента.</param>
+			<returns>Данные клиента.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.ClientsController.PostClient(Lab6.ViewModels.ClientViewModel)">
+			<summary>
+				Регистрация нового клиента.
+			</summary>
+			<param name="client">Данные клиента.</param>
+			<returns>Созданный клиент.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.ClientsController.PutClient(System.Int32,Lab6.ViewModels.ClientViewModel)">
+			<summary>
+				Обновление данных одного клиента.
+			</summary>
+			<param name="id">Код клиента.</param>
+			<param name="client">Данные клиента.</param>
+			<returns>Статус.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.ClientsController.DeleteClient(System.Int32)">
+			<summary>
+				Удаление данных одного клиента.
+			</summary>
+			<param name="id">Код клиента.</param>
+			<returns>Статус.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.ClientsController.FetchClients">
+			<summary>
+				Получение HTML-страницы для отображения клиентов.
+			</summary>
+			<returns>HTML.</returns>
+		</member>
+		<member name="M:Lab6.Controllers.ClientsController.JqClients">
+			<summary>
+				Получение HTML-страницы для отображения клиентов.
+			</summary>
+			<returns>HTML.</returns>
+		</member>
+	</members>
+</doc>

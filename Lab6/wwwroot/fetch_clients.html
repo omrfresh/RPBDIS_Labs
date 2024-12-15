@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Клиенты</title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <link href="lib/jquery-ui/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    <script src="lib/jquery-ui/jquery-ui.js"></script>
+    <script src="lib/jquery-ui/ui/i18n/datepicker-ru.js"></script>
+</head>
+<body onload="">
+    <div class="container">
+        <h2>Список клиентов</h2>
+        <form name="clientForm">
+            <table border="0">
+                <tr>
+                    <td>
+                        <label for="clientId" id="typeCRUD" name="typeCRUD">Добавить:</label>
+                        <input type="hidden" id="clientId" name="clientId" value=0 />
+                        <div class="form-group">
+                            <label>Имя:</label>
+                            <input class="form-control" name="firstName" id="firstName" />
+                        </div>
+                        <div class="form-group">
+                            <label>Фамилия:</label>
+                            <input class="form-control" name="lastName" id="lastName" />
+                        </div>
+                        <div class="form-group">
+                            <label>Адрес:</label>
+                            <input class="form-control" name="address" id="address" />
+                        </div>
+                        <div class="form-group">
+                            <label>Телефон:</label>
+                            <input class="form-control" name="phoneNumber" id="phoneNumber" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="panel-body">
+                            <button id="saveBtn" type="submit" class="btn btn-sm btn-primary">Сохранить</button>
+                            <a id="reset" class="btn btn-sm btn-primary">Сбросить</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <table class="table table-condensed table-striped table-bordered">
+            <thead><tr><th>Код</th><th>Имя</th><th>Фамилия</th><th>Адрес</th><th>Телефон</th><th>Действие</th></tr></thead>
+            <tbody id="data"></tbody>
+        </table>
+    </div>
+
+    <script>
+        // Получение всех клиентов
+        async function GetClients() {
+            const response = await fetch("/api/clients", {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const clients = await response.json();
+                const rows = document.querySelector("table tbody#data");
+                clients.forEach(client => rows.append(row(client)));
+            }
+        }
+
+        // Получение одного клиента
+        async function GetClient(id) {
+            const response = await fetch('/api/clients/' + id, {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const client = await response.json();
+                var form = document.forms["clientForm"];
+                form.elements["clientId"].value = client.clientId;
+                form.elements["firstName"].value = client.firstName;
+                form.elements["lastName"].value = client.lastName;
+                form.elements["address"].value = client.address;
+                form.elements["phoneNumber"].value = client.phoneNumber;
+            }
+        }
+
+        // Добавление клиента
+        async function CreateClient(firstName, lastName, address, phoneNumber) {
+            const response = await fetch("api/clients", {
+                method: "POST",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    firstName: firstName,
+                    lastName: lastName,
+                    address: address,
+                    phoneNumber: phoneNumber
+                })
+            });
+            if (response.ok === true) {
+                const client = await response.json();
+                reset();
+                document.querySelector("table tbody#data").append(row(client));
+            } else {
+                const error = await response.json();
+                console.log(error.message);
+            }
+        }
+
+        // Изменение клиента
+        async function EditClient(clientId, firstName, lastName, address, phoneNumber) {
+            const response = await fetch("api/clients/" + clientId, {
+                method: "PUT",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    clientId: parseInt(clientId),
+                    firstName: firstName,
+                    lastName: lastName,
+                    address: address,
+                    phoneNumber: phoneNumber
+                })
+            });
+            if (response.ok === true) {
+                reset();
+                const client = await response.json();
+                document.querySelector("tr[data-rowid='" + client.clientId + "']").replaceWith(row(client));
+            } else {
+                const error = await response.json();
+                console.log(error.message);
+            }
+        }
+
+        // сброс формы
+        function reset() {
+            var form = document.forms["clientForm"];
+            form.reset();
+            form.elements["clientId"].value = 0;
+            document.getElementById("typeCRUD").innerHTML = "Добавить:";
+        }
+
+        // Удаление клиента
+        async function DeleteClient(id) {
+            const response = await fetch("api/clients/" + id, {
+                method: "DELETE",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                document.querySelector("tr[data-rowid='" + id + "']").remove();
+            } else {
+                const error = await response.json();
+                console.log(error.message);
+            }
+        }
+
+        // нажатие на ссылку Изменить
+        async function Edit(id) {
+            document.getElementById("typeCRUD").innerHTML = "Изменить:";
+            await GetClient(id);
+        }
+
+        // нажатие на ссылку Удалить
+        async function Delete(id) {
+            await DeleteClient(id);
+            reset();
+        }
+
+        // создание строки для таблицы
+        function row(client) {
+            const tr = document.createElement("tr");
+            tr.setAttribute("data-rowid", client.clientId);
+
+            const IDTd = document.createElement("td");
+            IDTd.append(client.clientId);
+            tr.append(IDTd);
+
+            const firstNameTd = document.createElement("td");
+            firstNameTd.append(client.firstName);
+            tr.append(firstNameTd);
+
+            const lastNameTd = document.createElement("td");
+            lastNameTd.append(client.lastName);
+            tr.append(lastNameTd);
+
+            const addressTd = document.createElement("td");
+            addressTd.append(client.address);
+            tr.append(addressTd);
+
+            const phoneNumberTd = document.createElement("td");
+            phoneNumberTd.append(client.phoneNumber);
+            tr.append(phoneNumberTd);
+
+            const link1Td = document.createElement("td");
+            const editLink = document.createElement("a");
+            editLink.setAttribute("class", "editLink");
+            editLink.setAttribute("data-id", client.clientId)
+            editLink.append("Изменить");
+            editLink.addEventListener("click", async () => await Edit(client.clientId));
+            link1Td.append(editLink);
+            tr.appendChild(link1Td);
+
+            const link2Td = document.createElement("td");
+            const removeLink = document.createElement("a");
+            removeLink.setAttribute("class", "removeLink");
+            removeLink.setAttribute("data-id", client.clientId)
+            removeLink.append("Удалить");
+            removeLink.addEventListener("click", async () => await Delete(client.clientId));
+            link2Td.append(removeLink);
+            tr.appendChild(link2Td);
+
+            return tr;
+        }
+
+        // сброс значений формы
+        document.getElementById("reset").addEventListener("click", () => reset());
+
+        // фильтрация
+        document.getElementById("filter").addEventListener("click", () => GetClients());
+
+        // отправка формы
+        document.getElementById("saveBtn").addEventListener("click", async function (e) {
+            e.preventDefault();
+            var clientId = document.getElementById("clientId").value;
+            var form = document.forms["clientForm"];
+            var firstName = form.elements["firstName"].value;
+            var lastName = form.elements["lastName"].value;
+            var address = form.elements["address"].value;
+            var phoneNumber = form.elements["phoneNumber"].value;
+            if (clientId == 0)
+                CreateClient(firstName, lastName, address, phoneNumber);
+            else
+                EditClient(clientId, firstName, lastName, address, phoneNumber);
+        });
+
+        // загрузка данных для таблицы и ее формирование
+        GetClients();
+    </script>
+</body>
+</html>

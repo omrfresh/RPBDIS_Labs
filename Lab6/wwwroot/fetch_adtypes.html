@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Типы рекламы</title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <link href="lib/jquery-ui/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    <script src="lib/jquery-ui/jquery-ui.js"></script>
+    <script src="lib/jquery-ui/ui/i18n/datepicker-ru.js"></script>
+</head>
+<body onload="">
+    <div class="container">
+        <h2>Список типов рекламы</h2>
+        <form name="adTypeForm">
+            <table border="0">
+                <tr>
+                    <td>
+                        <label for="adTypeId" id="typeCRUD" name="typeCRUD">Добавить:</label>
+                        <input type="hidden" id="adTypeId" name="adTypeId" value=0 />
+                        <div class="form-group">
+                            <label>Название:</label>
+                            <input class="form-control" name="name" id="name" />
+                        </div>
+                        <div class="form-group">
+                            <label>Описание:</label>
+                            <input class="form-control" name="description" id="description" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="panel-body">
+                            <button id="saveBtn" type="submit" class="btn btn-sm btn-primary">Сохранить</button>
+                            <a id="reset" class="btn btn-sm btn-primary">Сбросить</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <table class="table table-condensed table-striped table-bordered">
+            <thead><tr><th>Код</th><th>Название</th><th>Описание</th><th>Действие</th></tr></thead>
+            <tbody id="data"></tbody>
+        </table>
+    </div>
+
+    <script>
+        // Получение всех типов рекламы
+        async function GetAdTypes() {
+            const response = await fetch("/api/adtypes", {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const adTypes = await response.json();
+                const rows = document.querySelector("table tbody#data");
+                adTypes.forEach(adType => rows.append(row(adType)));
+            }
+        }
+
+        // Получение одного типа рекламы
+        async function GetAdType(id) {
+            const response = await fetch('/api/adtypes/' + id, {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const adType = await response.json();
+                var form = document.forms["adTypeForm"];
+                form.elements["adTypeId"].value = adType.adTypeId;
+                form.elements["name"].value = adType.name;
+                form.elements["description"].value = adType.description;
+            }
+        }
+
+        // Добавление типа рекламы
+        async function CreateAdType(name, description) {
+            const response = await fetch("api/adtypes", {
+                method: "POST",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    name: name,
+                    description: description
+                })
+            });
+            if (response.ok === true) {
+                const adType = await response.json();
+                reset();
+                document.querySelector("table tbody#data").append(row(adType));
+            } else {
+                const error = await response.json();
+                console.log(error.message);
+            }
+        }
+
+        // Изменение типа рекламы
+        async function EditAdType(adTypeId, name, description) {
+            const response = await fetch("api/adtypes/" + adTypeId, {
+                method: "PUT",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    adTypeId: parseInt(adTypeId),
+                    name: name,
+                    description: description
+                })
+            });
+            if (response.ok === true) {
+                reset();
+                const adType = await response.json();
+                document.querySelector("tr[data-rowid='" + adType.adTypeId + "']").replaceWith(row(adType));
+            } else {
+                const error = await response.json();
+                console.log(error.message);
+            }
+        }
+
+        // сброс формы
+        function reset() {
+            var form = document.forms["adTypeForm"];
+            form.reset();
+            form.elements["adTypeId"].value = 0;
+            document.getElementById("typeCRUD").innerHTML = "Добавить:";
+        }
+
+        // Удаление типа рекламы
+        async function DeleteAdType(id) {
+            const response = await fetch("api/adtypes/" + id, {
+                method: "DELETE",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                document.querySelector("tr[data-rowid='" + id + "']").remove();
+            } else {
+                const error = await response.json();
+                console.log(error.message);
+            }
+        }
+
+        // нажатие на ссылку Изменить
+        async function Edit(id) {
+            document.getElementById("typeCRUD").innerHTML = "Изменить:";
+            await GetAdType(id);
+        }
+
+        // нажатие на ссылку Удалить
+        async function Delete(id) {
+            await DeleteAdType(id);
+            reset();
+        }
+
+        // создание строки для таблицы
+        function row(adType) {
+            const tr = document.createElement("tr");
+            tr.setAttribute("data-rowid", adType.adTypeId);
+
+            const IDTd = document.createElement("td");
+            IDTd.append(adType.adTypeId);
+            tr.append(IDTd);
+
+            const nameTd = document.createElement("td");
+            nameTd.append(adType.name);
+            tr.append(nameTd);
+
+            const descriptionTd = document.createElement("td");
+            descriptionTd.append(adType.description);
+            tr.append(descriptionTd);
+
+            const link1Td = document.createElement("td");
+            const editLink = document.createElement("a");
+            editLink.setAttribute("class", "editLink");
+            editLink.setAttribute("data-id", adType.adTypeId)
+            editLink.append("Изменить");
+            editLink.addEventListener("click", async () => await Edit(adType.adTypeId));
+            link1Td.append(editLink);
+            tr.appendChild(link1Td);
+
+            const link2Td = document.createElement("td");
+            const removeLink = document.createElement("a");
+            removeLink.setAttribute("class", "removeLink");
+            removeLink.setAttribute("data-id", adType.adTypeId)
+            removeLink.append("Удалить");
+            removeLink.addEventListener("click", async () => await Delete(adType.adTypeId));
+            link2Td.append(removeLink);
+            tr.appendChild(link2Td);
+
+            return tr;
+        }
+
+        // сброс значений формы
+        document.getElementById("reset").addEventListener("click", () => reset());
+
+        // фильтрация
+        document.getElementById("filter").addEventListener("click", () => GetAdTypes());
+
+        // отправка формы
+        document.getElementById("saveBtn").addEventListener("click", async function (e) {
+            e.preventDefault();
+            var adTypeId = document.getElementById("adTypeId").value;
+            var form = document.forms["adTypeForm"];
+            var name = form.elements["name"].value;
+            var description = form.elements["description"].value;
+            if (adTypeId == 0)
+                CreateAdType(name, description);
+            else
+                EditAdType(adTypeId, name, description);
+        });
+
+        // загрузка данных для таблицы и ее формирование
+        GetAdTypes();
+    </script>
+</body>
+</html>
